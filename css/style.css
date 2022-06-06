@@ -1,0 +1,242 @@
+@import url(//db.onlinewebfonts.com/c/7c9d8cabea7f4697dde2e98c001c5f2d?family=Futura+PT+Light);
+
+* {
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  --black: #000;
+  --black-rgba: rgba(31,31,31,.5);
+  --white: #FFF;
+  --light-green: #EAF6F6;
+  --light-grey: #B9B9B9;
+  --grey: #9C9999;
+  --grey-rgba: rgba(136, 136, 136, 0.5);
+  --grey-green: #40514E;
+  --grey-eclipse : #3F3F3F;
+  --dark-grey: #272727;
+  --dark-blue: #050E32;
+  --purple: #5C3D6E;
+  --dark-purple: #373264;
+  --lilac: #DEDBE5;
+}
+
+body {
+  color: var(--grey-green);
+  font-family: 'Merriweather', serif;
+}
+
+p {
+  line-height: 2;
+}
+
+/*------------- HEADER -------------*/
+.header {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+}
+
+.meta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40%;
+  padding-top: 1vh;
+}
+
+.logo {
+  height: 60px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style: none; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li a {
+  color: var(--light-grey);
+  text-decoration: none;
+  padding: 10px;
+}
+
+.menu li a:hover {
+  color: var(--white);
+}
+
+.meta-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 12.5rem; 
+}
+
+.title {
+  font-family: "Futura PT Light";
+  color: var(--white); 
+  font-size: 5.375rem; 
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.1em;
+}
+
+.subtitle {
+  font-family: "Futura PT Light";
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  line-height: 1.3em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 300;
+  font-style: normal;
+  color: var(--grey); 
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+/*------------- MIDDLE -------------*/
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about {
+  margin: 70px 0 20px;
+  color: var(--dark-blue); 
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 2.5rem; 
+  font-weight: normal; 
+  padding-bottom: 10px;
+}
+
+.skill-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 100px 0 30px;
+  width: 60%;
+}
+
+.skill-row-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.development-img {
+  width: 20%; 
+  margin-right: 30px;
+}
+
+.skill-row-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.hobbies-img {
+  width: 20%; 
+  margin-left: 30px;
+}
+
+.about-subtitle {
+  color: var(--dark-purple); 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+.about-paragraph {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bottom-line {
+  border: dotted var(--light-green) 6px; 
+  border-bottom: none; 
+  width: 4%; 
+  margin: 100px auto;
+}
+
+/*------------- FOOTER -------------*/
+.footer-inner {
+  display: grid;
+}
+
+.contact-me {
+  display: flex; 
+  flex-direction: column; 
+  text-align: center;
+  align-items: center; 
+  margin-bottom: 50px;
+}
+
+.footer-title {
+  color: var(--dark-blue); 
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 2.5rem; 
+  font-weight: normal; 
+  padding-bottom: 10px;
+}
+
+.footer-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--dark-purple);
+}
+
+.contact-message {
+  width: 40%; 
+  margin: 40px auto 60px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+  background-image: linear-gradient(var(--black), var(--purple));
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--white);
+  font-size: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-image: linear-gradient(var(--purple), var(--black));
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--lilac);
+  padding: 50px 0 20px; 
+}
+
+.footer-link {
+  padding: 5px;
+  opacity: 80%;
+}
+
+.footer-link:hover {
+  opacity: 100%;
+}
+
+.link-icon {
+  height: 20px;
+}
+
+.copyright {
+  color: var(--light-green); 
+  font-size: 0.9rem; 
+  padding: 20px 0; 
+  color: var(--grey-green); 
+  font-family: 'Montserrat', sans-serif;
+}

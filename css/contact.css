@@ -1,0 +1,161 @@
+@import url(//db.onlinewebfonts.com/c/7c9d8cabea7f4697dde2e98c001c5f2d?family=Futura+PT+Light);
+
+body {
+    font-family: "Futura PT Light";
+    color: var(--black);
+}
+
+.meta {
+    background-color: var(--dark-grey);
+}
+
+.sr-only {
+    display: none;
+}
+
+input, textarea {
+    margin: .375rem 0;
+    border: 1px solid var(--grey-rgba);
+    border-radius: 2px;
+}
+
+main {
+    padding: 96px 32px; 
+}
+
+
+/*-------------------------------------*/
+.middle-content {
+    
+}
+
+.contact-me, .contact-me p{
+    line-height: 2.7rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.contact-me p a {
+    color: var(--black-rgba);
+}
+
+.footer-title {
+    font-family: "Futura PT Light";
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.contact-info {
+
+}
+
+
+/*--------- Bottom ---------*/
+.bottom-content {
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    /* padding: 1.063rem; */
+}
+
+form label {
+    font-size: 1.2rem;
+}
+
+.full-name {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-end;
+    gap: 20px;
+    
+}
+
+.first-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-name span {
+    font-size: .95rem;
+    color: var(--black);
+}
+
+.first-name span:nth-child(1) {
+    font-size: 1.2rem;
+}
+
+.first-name input {
+    width: 100%;
+    padding: 0.938rem;
+}
+
+.last-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.last-name span {
+    font-size: .95rem;
+}
+
+
+.last-name input {
+    width: 100%;
+    padding: 0.938rem;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+.email input {
+    width: 100%;
+    padding: 0.938rem;
+}
+
+.subject {
+    display: flex;
+    flex-direction: column;
+}
+
+.subject input {
+    width: 100%;
+    padding: 0.938rem;
+}
+
+
+/*-------------------------------------------*/
+.message {
+    
+}
+
+.message textarea {
+    resize: none;
+    width: 100%;
+    padding: .75rem;
+}
+
+.button {
+    width: 9.375rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem;
+    color: var(--white);
+    background-color: var(--dark-grey);
+    text-transform: uppercase;
+    border: none;
+    padding: 14px 30px;
+    letter-spacing: 3px;
+    transition: .2s;  
+}
+
+.button:hover {
+    background-color: var(--grey-eclipse);    
+}
